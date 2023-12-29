@@ -22,14 +22,13 @@ hr{
     margin-top:20px;
     margin-bottom:20px;
 
-    border: 2px solid #000;
+    /*border: 2px solid #000;*/
 }
 
 .thumbnail{
-    border: 2px solid #000;
+    /*border: 2px solid #000;*/
     width: 200px;
     height: 200px;
-    float:left;
 }
 
 
