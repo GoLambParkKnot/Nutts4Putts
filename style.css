@@ -22,14 +22,14 @@ hr{
     
 }
 .content{
-    margin-top:40px;
+    
     background-color: rgb(226, 226, 226);
     height:2200px;
 }
 .content-item{
-    margin-top:20px;
+    
     margin-bottom:20px;
-
+    background-image: url("images/grass.jpg");
     border: 2px solid #000;
 }
 
@@ -41,12 +41,15 @@ hr{
 
 
 
-.poem{
+.side-card{
     
     background-color: rgb(138, 160, 135);
     border-radius: 20px;
-    height:500px;
+    height:300px;
+    margin-bottom: 20px;
 
+
+    border: 2px solid #000;
 }
 .nav{
     background-color: rgb(66, 1, 1);
