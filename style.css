@@ -11,17 +11,21 @@ body{
     border: solid 2px #000;
 
 }
-.welcome-to{
+.nutts{
     font: bold 10px sans-serif;
     fill: #000;
 }
-.nutts-for-putts{
+.putts{
     font: bold 10px sans-serif;
     fill: #000;
 
 }
 .poly{
     fill:rgb(255, 183, 183);
+    
+
+}
+.title{
 
 }
 
