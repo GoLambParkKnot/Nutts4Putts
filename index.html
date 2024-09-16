@@ -17,20 +17,26 @@
 <div class="trim top" ></div>    
 
 <div class="banner">
-    <img src="images/N4P.png" alt="" class="banner-image">
+    <img src="images/N4P.png" alt="" class="banner-image" onmouseover="hover()">
 
 </div>
 
 <div class="grid-container">
-    <div class="grid-item"></div>
-    <div class="grid-item"></div>
-    <div class="grid-item"></div>
-    <div class="grid-item"></div>
-    
+    <div class="grid-item" onmouseover="changeVisibility('visible')" onmouseout="changeVisibility('hidden')"><img src="images/grass.jpg" width="300" height="300"/></div>
+    <div class="grid-item" onmouseover="changeVisibility('visible')" onmouseout="changeVisibility('hidden')"><img src="images/grass.jpg" width="300" height="300"/></div>
+    <div class="grid-item" onmouseover="changeVisibility('visible')" onmouseout="changeVisibility('hidden')"><img src="images/grass.jpg" width="300" height="300"/></div>
+    <div class="grid-item" onmouseover="changeVisibility('visible')" onmouseout="changeVisibility('hidden')"><img src="images/grass.jpg" width="300" height="300"/></div>
+    <!-- onmouseover="showPreviewText()" -->
 </div>
 
-<div class="preview-text">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+<div class="preview text" id="pre">Preview Text</div>
+
+<div class="tagline text">
+    Brisbane independant mini-golf review blog.
+</div>
+
+<div class="about text">
+    About text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
     Fusce mollis felis eu neque malesuada, ut faucibus lacus ultricies. 
     Integer non arcu ac nibh consequat ultrices. 
     Phasellus efficitur nisl eros, nec auctor metus dapibus sed. 
@@ -42,22 +48,17 @@
 
 <div class="trim bottom" ></div>
 
-<!-- About/Menu  -->
 
-<!-- Title -->
 
-<!-- Floating Head -->
+<script>
 
-<!-- Content 1 -->
-
-<!-- Content 2 -->
-
-<!-- Golf ball-->
-
-<!-- socials -->
+function changeVisibility(change) {
+  document.getElementById("pre").style.visibility = change;
+}
 
 
 
+</script>
 
 
 
